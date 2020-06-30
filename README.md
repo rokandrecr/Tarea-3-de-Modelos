@@ -3,6 +3,8 @@ Tarea 3 de Modelos probabilisticos de señales y sistemas.
 Roger Castro
 B61725
 Grupo: 02
+NOTA: El archivo xy.csv fue cambiado al original para generar una lectura más sencilla de los datos
+
 
 1. Se calculan los valores de fX(x) y fy(Y), para luego graficarlos y observar una distribución simular a la distribución Gaussiana por lo que se crea una función Gaussiana para calcular los paramétros de esta.Esto fue realizado por medio del comando curvefit y se hizo para cada variable aleatoria guardando los parametros en un vector correspondiente a paramX y paramY. Las entradas de este vector son el mu y el sigma para las funciones correspondientes
 
