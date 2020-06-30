@@ -18,8 +18,8 @@ Por esta razón estos valores representan los valores correspondientes a la curv
 
 3. Los datos obtenidos serían los siguientes
 Rxy = 149.4773100000001 
-Cxy = 0.11760503547873213 
-p = 0.005914099124709811
+Cxy = 0.06283646531278125 
+p = 0.003159907932457386
 La correlación (Rxy) explica el grado en el cual dos o más cantidades están linealmente asociadas, por lo cual se observa que tiene una correlación bastante alta. No obstante es importante entender que correlación no significa casualidad por lo que en este caso se observa como la covarianza(Cxy) tiene un valor bastante cercano a 0 y el valor del coeficiente de correlación(p) también por lo que se deduce que las variables son independientes entre sí. Esta condición de independencia ya se sabía en el Punto 2 y estos parametros obtenidos en este punto demuestra la independencia entre las 2 variables aleatorias
 
 4.En el archivo fX.png y el archivo fY.png muestran las gráficas de las funciones de densidad marginales para las variables aleatorias de X y Y correspondientemente. En estas se pueden observar el comportamiento hacia una tendencia de distribución gaussiana. 
