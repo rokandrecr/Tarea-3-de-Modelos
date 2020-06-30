@@ -8,8 +8,8 @@ NOTA: El archivo xy.csv fue cambiado al original para generar una lectura más s
 
 1. Se calculan los valores de fX(x) y fy(Y), para luego graficarlos y observar una distribución simular a la distribución Gaussiana por lo que se crea una función Gaussiana para calcular los paramétros de esta.Esto fue realizado por medio del comando curvefit y se hizo para cada variable aleatoria guardando los parametros en un vector correspondiente a paramX y paramY. Las entradas de este vector son el mu y el sigma para las funciones correspondientes
 
-La media para X tuvo un valor de 9.904843810018251 y la varianza de 3.2994428643069567.
-La media para Y tuvo un valor de 15.079460901084733 y la varianza de 6.0269377486808775.
+La media para X tuvo un valor de 9.90484381 y la varianza de 3.29944286
+La media para Y tuvo un valor de 15.0794609 y la varianza de 6.02693775
 
 Por esta razón estos valores representan los valores correspondientes a la curva de mejor ajuste para la función de densidad marginal correspondiente a cada variable aleatoria como una función normal 
 
