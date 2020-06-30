@@ -24,13 +24,13 @@ y=[5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16,17,18,19,20,21,22,23,24,25]
 """Defino la función gaussiana"""
 def gaussiana(k,mu,sigma):
   return 1/(np.sqrt(2*np.pi*sigma**2)) * np.exp(-(k-mu)**2/(2*sigma**2))
-param, _ = curve_fit(gaussiana,x,fX)
-print(param)
+paramX, _ = curve_fit(gaussiana,x,fX)
+print("Los parametros de la Función de densidad marginal X son: ", paramX)
 
-hx= norm.pdf(x, param[0], param[1] )
-parametro, _ = curve_fit(gaussiana,y,fY)
-hy= norm.pdf(y, parametro[0], parametro[1] )
-print(parametro)
+hx= norm.pdf(x, paramX[0], paramX[1] )
+paramY, _ = curve_fit(gaussiana,y,fY)
+hy= norm.pdf(y, paramY[0], paramY[1] )
+print("Los parametros de la Función de densidad marginal Y son: ",paramY)
 """Parte 3"""
 
 
@@ -70,12 +70,12 @@ for i in range(len(X)):
     promedio=P[i]
     vectorxs=X[i]
     vectorys=Y[i]
-    covarianza -= promedio*(vectorxs-param[0])*(vectorys-parametro[0])
+    covarianza -= promedio*(vectorxs-paramX[0])*(vectorys-paramY[0])
 print("La covarianza es: ", covarianza)
 
 
 
-p= covarianza/(param[1]*parametro[1])
+p= covarianza/(paramX[1]*paramY[1])
 print("El coeficiente de correlación es:", p)
 
 
